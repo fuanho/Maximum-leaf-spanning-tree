@@ -45,7 +45,7 @@ int main() {
             }
             graph.push_back(tmpGraph);
         }
-
+        int a;
         
         cin >> nodeSize;
     }
