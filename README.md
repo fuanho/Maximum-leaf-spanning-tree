@@ -2,12 +2,14 @@
 
 ###### tags: `Spanning Tree` `algorithm`
 
+**Warning : If pictures are not working click [GitHub+Mermaid](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe) to add this expansion**
+
 ## Description:
 
 Giving and undirected connedted graph using **adjacency matrix** A(n*n). Find a spanning tree which degree more then 1 nodes are minimum(i.e. maxmum leaf).  
   
 But this graph has some rules. First not all nodes need to be connected in final spanning tree. Its depend on spanning tree if the node is **unnecessary** you can chose either include or not include.  
-The other rule is the definition of degree you can see the degree to learn more.  
+The other rule is the definition of degree you can see **degree** to learn more.  
 
 ### Necessary and Unnecessary
 ```mermaid
@@ -18,6 +20,11 @@ The other rule is the definition of degree you can see the degree to learn more.
 ### Degree
 ```mermaid
     graph TD
+    subgraph degree3
+    A3---B3
+    A3---C3
+    D3---A3
+    end
     subgraph degree2
     A2---B2
     A2---C2
