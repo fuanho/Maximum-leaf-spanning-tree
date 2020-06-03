@@ -35,7 +35,7 @@ The other rule is the definition of degree you can see **degree** to learn more.
 ```
 ## Excample:
 ### Input data  
-9 // It means this graph has 9 nodes  
+9 **// It means this graph has 9 nodes**  
 0 1 1 0 0 0 1 0 0  
 1 0 0 1 0 0 1 0 0  
 1 0 0 0 1 0 0 0 0  
@@ -45,8 +45,8 @@ The other rule is the definition of degree you can see **degree** to learn more.
 1 1 0 0 0 0 0 1 0  
 0 0 0 0 1 0 1 0 1  
 0 0 0 0 0 0 0 1 0  
-1 1 1 1 1 1 1 1 0 // A,B,C,D,E,F,G,H is necessary node  
-0 // End
+1 1 1 1 1 1 1 1 0 **// A,B,C,D,E,F,G,H is necessary node**  
+0 **// End**
 
 ### Grahp
 ```mermaid
