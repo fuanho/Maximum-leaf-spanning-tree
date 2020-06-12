@@ -2,20 +2,19 @@
 
 ###### tags: `Spanning Tree` `algorithm`
 
-**Warning : If pictures are not working click [GitHub+Mermaid](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe) to add this expansion**
+**Warning : If pictures are not working, click on [GitHub+Mermaid](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe) to add this expansion**
 
 ## Description:
 
-Giving and undirected connedted graph using **adjacency matrix** A(n*n). Find a spanning tree which degree more then 1 nodes are minimum(i.e. maxmum leaf).  
+Given an undirected connedted graph G, represented by an **adjacency matrix** A(n*n). Please find a tree T that has the maximal number of leaves and contains all the vertices in S. Note that the vertices in G\S may or may not be in the tree T.
   
-But this graph has some rules. First not all nodes need to be connected in final spanning tree. Its depend on spanning tree if the node is **unnecessary** you can chose either include or not include.  
-The other rule is the definition of degree you can see **degree** to learn more.  
+For the definition of degree, see the Wikipedia [page](https://en.wikipedia.org/wiki/Degree_(graph_theory)).
 
-### Necessary and Unnecessary
+### Necessary and Unecessary
 ```mermaid
     graph LR
     Necessary---Unnecessary
-    style Unnecessary fill:#fff
+    style Unecessary fill:#fff
 ```
 ### Degree
 ```mermaid
@@ -33,9 +32,9 @@ The other rule is the definition of degree you can see **degree** to learn more.
     A1---C1
     end
 ```
-## Excample:
+## Example:
 ### Input data  
-9 **// It means this graph has 9 nodes**  
+9 **// It means this graph has 9 vertices**  
 0 1 1 0 0 0 1 0 0  
 1 0 0 1 0 0 1 0 0  
 1 0 0 0 1 0 0 0 0  
@@ -45,7 +44,7 @@ The other rule is the definition of degree you can see **degree** to learn more.
 1 1 0 0 0 0 0 1 0  
 0 0 0 0 1 0 1 0 1  
 0 0 0 0 0 0 0 1 0  
-1 1 1 1 1 1 1 1 0 **// A,B,C,D,E,F,G,H is necessary node**  
+1 1 1 1 1 1 1 1 0 **// A,B,C,D,E,F,G,H are necessary vertices**  
 0 **// End**
 
 ### Grahp
@@ -74,7 +73,7 @@ The other rule is the definition of degree you can see **degree** to learn more.
     G---H
     D---F
 ```
-Because nodes A,B,C,D,G degree more then 1  
+Because A,B,C,D,G are vertices that have degree more then 1  
 **Ans : 5**
 ## Solution:
 See main.cpp
