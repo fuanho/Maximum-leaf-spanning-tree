@@ -2,7 +2,7 @@
 
 ###### tags: `Spanning Tree` `algorithm`
 
-**Warning : If pictures are not working click [GitHub+Mermaid](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe) to add this expansion**
+**Warning : If pictures are not working, click on [GitHub+Mermaid](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe) to add this expansion**
 
 ## Description:
 
