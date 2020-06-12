@@ -14,7 +14,7 @@ For the definition of degree, see the Wikipedia [page](https://en.wikipedia.org/
 ```mermaid
     graph LR
     Necessary---Unnecessary
-    style Unecessary fill:#fff
+    style Unnecessary fill:#fff
 ```
 ### Degree
 ```mermaid
