@@ -10,7 +10,7 @@ Given an undirected connedted graph G, represented by an **adjacency matrix** A(
   
 For the definition of degree, see the Wikipedia [page](https://en.wikipedia.org/wiki/Degree_(graph_theory)).
 
-### Necessary and Unecessary
+### Necessary and Unnecessary
 ```mermaid
     graph LR
     Necessary---Unnecessary
